@@ -1,5 +1,6 @@
 import java.util.List;
 
+// Implementing Iterator Pattern
 public class OfferingIterator implements ListIterator{
 
     private OfferingList offeringList;
