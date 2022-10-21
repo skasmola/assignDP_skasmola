@@ -1,6 +1,6 @@
 public abstract class Person {
 
-    private ProductMenu theProductMenu;
+    protected ProductMenu theProductMenu;
 
 
     public abstract void showMenu();

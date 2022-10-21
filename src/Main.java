@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        // Main driver code
+        Facade facade = new Facade();
+        facade.login(); //Invoking login of buyer and seller through facade pattern
+        Login login = new Login();
     }
 }
