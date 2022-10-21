@@ -1,24 +1,24 @@
 public class Product {
 
-    private String name;
+    private String productname;
 
-    private String type;
+    private String producttype;
 
     private ClassProductList classProductList;
 
     private Trading trading;
 
     public String getName() {
-        return name;
+        return productname;
     }
 
     public String getType() {
-        return type;
+        return producttype;
     }
 
-    public Product(String name, String type) {
-        this.name = name;
-        this.type = type;
+    public Product(String productname, String producttype) {
+        this.productname = productname;
+        this.producttype = producttype;
     }
 
     public Trading getTrading(){
